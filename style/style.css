@@ -1,0 +1,568 @@
+.flexCenter, body .mainContent .myProposal .contents .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  background: #263260;
+  border: 1px solid #263260;
+}
+
+.button-outline {
+  border: 1px solid #263260;
+  color: #263260;
+}
+
+a.button-outline {
+  color: #263260 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body svg {
+  width: 24px;
+  height: 24px;
+}
+
+body header {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+body header .headercontainer {
+  margin: 0 auto;
+  max-width: 112.0rem;
+  padding: 0 2.0rem;
+  width: 100%;
+}
+
+body header .headerElement {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .left-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .left-content nav#navdesktop {
+  display: none;
+}
+
+body header .left-content ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 15px;
+}
+
+body header .left-content ul li {
+  margin: 0 15px;
+}
+
+body header .left-content ul li a {
+  color: #333;
+  font-weight: 400;
+}
+
+body header .right-content {
+  float: none;
+  width: 80%;
+  margin-top: 20px;
+}
+
+body header .right-content .progress-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .right-content .progress-container .progress-wrapper {
+  width: 75%;
+}
+
+body header .right-content .progress-container .progress-wrapper .progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  padding: 0px;
+  border-radius: 50px;
+  margin-top: 3px;
+}
+
+body header .right-content .progress-container .progress-wrapper .progress-bar-fill {
+  display: block;
+  height: 8px;
+  background-color: #263260;
+  border-radius: 50px;
+  -webkit-transition: width 500ms ease-in-out;
+  transition: width 500ms ease-in-out;
+}
+
+body header .right-content .progress-container .progressLabel {
+  font-weight: bold;
+  margin-left: 15px;
+  font-size: 1.3rem;
+}
+
+body .mainContent {
+  background: #fbfbfb;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+
+body .mainContent .accountName {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body .mainContent .badgetitle {
+  color: #c4a159;
+}
+
+body .mainContent .bullet {
+  font-size: 1.5rem;
+  margin: 0 8px;
+}
+
+body .mainContent .email {
+  color: #333333;
+}
+
+body .mainContent .editemail {
+  font-size: 1.1rem;
+}
+
+body .mainContent .editemail img {
+  opacity: 0.5;
+  height: 15px;
+}
+
+body .mainContent .editemail .edittext {
+  color: #c4a159;
+}
+
+body .mainContent .actionbutton {
+  float: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  margin: 15px 0 0 0;
+}
+
+body .mainContent .actionbutton .createProposal {
+  background: #263260;
+  border-color: #263260;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .mainContent .actionbutton .createProposal svg {
+  fill: #fff;
+  margin-right: 8px;
+}
+
+body .mainContent .actionbutton .approval {
+  border-color: #e46969;
+  color: #e46969;
+  margin-right: 10px;
+}
+
+body .mainContent .details .actionbutton {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .mainContent .tiles {
+  margin: 50px 0 0 0;
+  list-style: none;
+}
+
+body .mainContent .tiles .tile {
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 10px 0;
+}
+
+body .mainContent .tiles .tile .content {
+  -webkit-box-shadow: 0px 0px 3px #d0d0d0;
+          box-shadow: 0px 0px 3px #d0d0d0;
+  min-height: 400px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mainContent .tiles .tile .content .centerContent {
+  width: 100%;
+}
+
+body .mainContent .tiles .tile .content .options {
+  height: 30px;
+  width: 100%;
+}
+
+body .mainContent .tiles .tile .content .options img {
+  width: 20px;
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+body .mainContent .tiles .tile .content .icons {
+  text-align: center;
+}
+
+body .mainContent .tiles .tile .content .icons svg {
+  width: auto;
+  height: 50px;
+  fill: #263260;
+}
+
+body .mainContent .tiles .tile .content .blueText {
+  color: #263260;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+body .mainContent .tiles .tile .content .action {
+  border: 1px solid #263260;
+  color: #263260;
+  width: 200px;
+}
+
+body .mainContent .tiles .tile .content .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mainContent .tiles .tile .content .carousel .left-arrow svg, body .mainContent .tiles .tile .content .carousel .right-arrow svg {
+  fill: #dfdfdf;
+}
+
+body .mainContent .tiles .tile .content .carousel .left-arrow {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+body .mainContent .no-padding {
+  padding: 0 0 5px 0;
+  margin: 50px 0 0 0;
+}
+
+body .mainContent .myProposal {
+  background: #f7f7f7;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 1px 4px #ccc;
+          box-shadow: 1px 1px 4px #ccc;
+  padding: 0;
+}
+
+body .mainContent .myProposal .myProposalHeader {
+  padding: 30px;
+  border-bottom: 1px solid #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mainContent .myProposal .myProposalHeader .info {
+  font-size: 1rem;
+}
+
+body .mainContent .myProposal .myProposalHeader .info .goldlabel {
+  color: #c4a159 !important;
+}
+
+body .mainContent .myProposal .myProposalHeader strong {
+  font-size: 1.8rem;
+}
+
+body .mainContent .myProposal .contents .myProposalContent {
+  padding: 30px;
+  border-top: 1px solid #fff;
+  width: 100%;
+  font-size: 1.4rem;
+  float: left;
+}
+
+body .mainContent .myProposal .contents .myProposalContent .button {
+  width: 100%;
+}
+
+body .mainContent .myProposal .contents .actions {
+  width: 100%;
+  float: right;
+  padding: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .mainContent .myProposal .contents .actions .days {
+  font-size: 3rem;
+}
+
+body .mainContent .myProposal .contents .actions .button {
+  margin: 15px 0;
+  background: #fff;
+  border: 1px solid #cecece;
+  border-radius: 50px;
+  color: #393939;
+  min-width: 100px;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+body .mainContent .savedProposal table.forDesktop {
+  display: none;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+body .mainContent .savedProposal table.forDesktop th {
+  font-weight: normal;
+  border: none;
+  text-align: center;
+}
+
+body .mainContent .savedProposal table.forDesktop tbody tr {
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 1px 2px #ccc;
+          box-shadow: 1px 1px 2px #ccc;
+  line-height: 30px;
+}
+
+body .mainContent .savedProposal table.forDesktop tbody tr td {
+  padding: 15px;
+  text-align: center;
+}
+
+body .mainContent .savedProposal table.forDesktop tbody tr .tleft {
+  text-align: left;
+}
+
+body .mainContent .savedProposal .plus {
+  color: #c4a159;
+}
+
+body .mainContent .savedProposal .forMobile {
+  display: block;
+}
+
+body .mainContent .savedProposal .forMobile .items {
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 1px 2px #ccc;
+          box-shadow: 1px 1px 2px #ccc;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+@media (min-width: 40rem) {
+  body header {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+  }
+  body header .headercontainer {
+    margin: 0 auto;
+    max-width: 112.0rem;
+    padding: 0 2.0rem;
+    width: 100%;
+  }
+  body header .headerElement {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header .left-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header .left-content nav {
+    position: relative !important;
+    background: none !important;
+  }
+  body .right-content {
+    float: right !important;
+    margin-top: 0;
+  }
+  body .actionbutton {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    margin: 0;
+  }
+  body .actionbutton .button {
+    margin: 0 0px 0 12px;
+  }
+  body .tiles {
+    margin: 50px 0 0 0;
+    list-style: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .tiles .tile {
+    width: 32%;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+  }
+  body .tiles .tile .content {
+    -webkit-box-shadow: 0px 0px 3px #d0d0d0;
+            box-shadow: 0px 0px 3px #d0d0d0;
+    min-height: 400px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .tiles .tile .content .centerContent {
+    width: 100%;
+  }
+  body .mainContent .contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    lign-items: center;
+  }
+  body .mainContent .contents .myProposalContent {
+    padding: 30px;
+    border-top: 1px solid #fff;
+    width: 55%;
+    font-size: 1.4rem;
+    float: left;
+  }
+  body .mainContent .contents .myProposalContent .button {
+    width: auto !important;
+  }
+  body .mainContent .contents .actions {
+    width: 45%;
+    float: right;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mainContent .contents .actions .days {
+    font-size: 3rem;
+  }
+  body .mainContent .contents .actions .button {
+    margin: 15px 0;
+    background: #fff;
+    border: 1px solid #cecece;
+    border-radius: 50px;
+    color: #393939;
+    min-width: 100%;
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+  body .mainContent .details .actionbutton {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .forMobile {
+    display: none !important;
+  }
+  body table.forDesktop {
+    display: table !important;
+  }
+  body #overlay, body #overlay-button {
+    display: none;
+  }
+  body nav#navdesktop {
+    display: block !important;
+  }
+}
+
+@media (max-width: 842px) {
+  body .headerElement {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  body .right-content {
+    float: left !important;
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

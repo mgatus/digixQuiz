@@ -1,0 +1,357 @@
+$digixBlue: #263260
+$digixOrange: #e46969
+$digixGold: #c4a159
+
+.flexCenter
+    display: flex
+    align-items: center
+
+.button
+    background: $digixBlue
+    border: 1px solid $digixBlue
+.button-outline
+    border: 1px solid $digixBlue
+    color: $digixBlue
+a.button-outline
+    color: $digixBlue!important
+body
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    svg
+        width: 24px
+        height: 24px
+    header
+        border-bottom: 1px solid #ccc
+        padding: 15px 0
+        .headercontainer
+            margin: 0 auto
+            max-width: 112.0rem
+            padding: 0 2.0rem
+            width: 100%
+        .headerElement
+            align-items: center
+        .left-content
+            display: flex
+            nav#navdesktop
+                display: none
+            ul
+                list-style: none
+                display: flex
+                margin: 0 15px
+                li
+                    margin: 0 15px
+                    a
+                        color: #333
+                        font-weight: 400
+        .right-content
+            float: none
+            width: 80%
+            margin-top: 20px
+            .progress-container
+                display: flex
+                .progress-wrapper
+                    width: 75%
+                    .progress-bar
+                        width: 100%
+                        background-color: #e0e0e0
+                        padding: 0px
+                        border-radius: 50px
+                        margin-top: 3px
+                    .progress-bar-fill
+                        display: block
+                        height: 8px
+                        background-color: $digixBlue
+                        border-radius: 50px
+                        transition: width 500ms ease-in-out
+                    
+                .progressLabel
+                    font-weight: bold
+                    margin-left: 15px
+                    font-size: 1.3rem
+    
+    .mainContent
+        background: #fbfbfb
+        min-height: 100vh
+        margin-top: 50px
+        .accountName
+            font-size: 2rem
+            font-weight: bold
+        .badgetitle
+            color: $digixGold
+        .bullet
+            font-size: 1.5rem
+            margin: 0 8px
+        .email
+            color: #333333
+        .editemail
+            font-size: 1.1rem
+            img
+                opacity: 0.5
+                height: 15px
+            .edittext
+                color: $digixGold
+        
+        .actionbutton
+            float: none
+            display: flex
+            justify-content: baseline
+            margin: 15px 0 0 0
+            .createProposal
+                background: $digixBlue
+                border-color: $digixBlue
+                display: flex
+                align-items: center
+                justify-content: center
+                svg
+                    fill: #fff
+                    margin-right: 8px
+                
+            .approval
+                border-color: $digixOrange
+                color: $digixOrange
+                margin-right: 10px
+        
+        .details
+            .actionbutton
+                flex-direction: column
+        
+        .tiles
+            margin: 50px 0 0 0
+            list-style: none
+            .tile
+                padding: 0px
+                box-sizing: border-box
+                margin: 10px 0
+                .content
+                    box-shadow: 0px 0px 3px #d0d0d0
+                    min-height: 400px
+                    text-align: center
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-around
+                    align-items: center
+                    .centerContent 
+                        width: 100%
+
+                    .options
+                        height: 30px
+                        width: 100%
+                        img
+                            width: 20px
+                            float: right
+                            margin: 0 20px 0 0
+                    
+                    .icons
+                        text-align: center
+                        svg
+                            width: auto
+                            height: 50px
+                            fill: $digixBlue
+                    
+                    .blueText
+                        color: $digixBlue
+                        font-weight: bold
+                        font-size: 2.2rem
+                    
+                    .action
+                        border: 1px solid $digixBlue
+                        color: $digixBlue
+                        width: 200px
+                    
+                    .carousel
+                        display: flex
+                        justify-content: space-around
+                        align-items: center
+                        .left-arrow svg, .right-arrow svg
+                            fill: #dfdfdf
+                        
+                        .left-arrow
+                            transform: scaleX(-1)
+        .no-padding
+            padding: 0 0 5px 0
+            margin: 50px 0 0 0
+
+        .myProposal
+            background: #f7f7f7
+            border-radius: 8px
+            box-shadow: 1px 1px 4px #ccc
+            padding: 0
+            .myProposalHeader
+                padding: 30px
+                border-bottom: 1px solid #dfdfdf
+                display: flex
+                justify-content: space-between
+                align-items: center
+                .info
+                    font-size: 1rem
+                    .goldlabel
+                        color: $digixGold !important
+                strong
+                    font-size: 1.8rem
+                    
+            .contents
+                .myProposalContent
+                    padding: 30px
+                    border-top: 1px solid #fff
+                    width: 100%
+                    font-size: 1.4rem
+                    float: left
+                    .button
+                        width: 100%
+                .actions
+                    width: 100%
+                    float: right
+                    padding: 30px
+                    @extend .flexCenter
+                    flex-direction: column
+                    .days
+                        font-size: 3rem
+                    .button
+                        margin: 15px 0
+                        background: #fff
+                        border: 1px solid #cecece
+                        border-radius: 50px
+                        color: #393939
+                        min-width: 100px
+                        font-size: 1.3rem
+                        font-weight: normal
+        
+        .savedProposal
+            table.forDesktop
+                display: none
+                border-collapse: separate
+                border-spacing: 0 1em
+                th
+                    font-weight: normal
+                    border: none
+                    text-align: center
+                tbody tr
+                    background: #fff
+                    border-radius: 8px
+                    box-shadow: 1px 1px 2px #ccc
+                    line-height: 30px
+                    td
+                        padding: 15px
+                        text-align: center
+                    .tleft
+                        text-align: left
+            .plus
+                color: $digixGold
+            
+            .forMobile
+                display: block
+                .items
+                    background: #fff
+                    border-radius: 8px
+                    box-shadow: 1px 1px 2px #ccc
+                    padding: 30px
+                    margin: 30px 0
+                
+@media (min-width: 40rem)
+    body
+        header
+            border-bottom: 1px solid #ccc
+            padding: 15px 0
+            .headercontainer
+                margin: 0 auto
+                max-width: 112.0rem
+                padding: 0 2.0rem
+                width: 100%
+            .headerElement
+                align-items: center
+            .left-content
+                display: flex
+                nav
+                    position: relative !important
+                    background: none !important
+
+        .right-content
+            float: right !important
+            margin-top: 0
+        .actionbutton
+            display: flex !important
+            align-items: flex-end
+            justify-content: flex-end !important
+            margin: 0
+            .button
+                margin: 0 0px 0 12px
+        
+        .tiles
+            margin: 50px 0 0 0
+            list-style: none
+            justify-content: space-between
+            display: flex
+            .tile
+                width: 32%
+                padding: 0px
+                box-sizing: border-box
+                margin: 0
+                .content
+                    box-shadow: 0px 0px 3px #d0d0d0
+                    min-height: 400px
+                    text-align: center
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-around
+                    align-items: center
+                    .centerContent 
+                        width: 100%
+        .mainContent
+            .contents
+                display: flex
+                lign-items: center
+                .myProposalContent
+                    padding: 30px
+                    border-top: 1px solid #fff
+                    width: 55%
+                    font-size: 1.4rem
+                    float: left
+                    .button
+                        width:  auto !important
+                .actions
+                    width: 45%
+                    float: right
+                    padding: 30px
+                    display: flex
+                    align-items: center
+                    flex-direction: column
+                    .days
+                        font-size: 3rem
+                    .button
+                        margin: 15px 0
+                        background: #fff
+                        border: 1px solid #cecece
+                        border-radius: 50px
+                        color: #393939
+                        min-width: 100%
+                        font-size: 1.3rem
+                        font-weight: normal
+            
+            .details
+                .actionbutton
+                    flex-direction: row 
+        
+        .forMobile
+            display: none !important
+        table.forDesktop
+            display: table !important
+
+        #overlay,#overlay-button
+            display: none
+        
+        nav#navdesktop
+            display: block !important
+
+@media (max-width: 842px)
+    body
+        .headerElement
+            flex-direction: column !important
+        .right-content
+            float: left !important
+            margin-top: 0
+        
+
+
+    
+    

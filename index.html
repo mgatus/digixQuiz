@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>DIGIX GLOBAL : HTML &amp; CSS Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML &amp; CSS Challenge" />
+    <meta name="author" content="Digix Global" />
+    <link rel="stylesheet" href="style/milligram.min.css?v=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/menu.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="headercontainer">
+        <div class="row headerElement">
+        <div class="column">
+          <div class="left-content">
+            <img src="assets/logo.svg" alt="Govrnonce">
+            <input type="checkbox" id="overlay-input" />
+            <label for="overlay-input" id="overlay-button"><span></span></label>
+            <nav id="overlay">
+              <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href="">Faq</a> </li>
+              </ul>
+            </nav>
+            <nav id="navdesktop">
+              <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href="">Faq</a> </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="column">
+          <div class="right-content">
+            <strong>Timeline</strong>
+            <!--Progress bar-->
+            <div class="progress-container flexCenter">
+              <div class="progress-wrapper">
+                <div class="progress-bar">
+                  <span class="progress-bar-fill" style="width: 40%;"></span>
+                </div>
+              </div>
+              <span class="progressLabel">
+                10 of 90 days
+              </span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+    <div class="mainContent">
+      <div class="container">
+        <div class="row details">
+          <div class="column accountContainer">
+            <div class="accountName">hold_godl_account</div>
+            <strong class="badgetitle">Badge Holder</strong> <strong class="bullet">&bull;</strong> <span class="email">hold_gold@somewhere.com</span> 
+            <span class="editemail"><img src="assets/edit-icon.svg" alt="Edit"> <a href="#" class="edittext">Edit</a></span>
+          </div>
+          <div class="column actionbutton">
+            <a class="button button-outline approval" href="#">KYC awaiting approval</a>
+            <a class="button createProposal" href="#">
+              <svg>
+                <use xlink:href="#plus" />
+              </svg> 
+              Create Proposal
+          </a>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <div class="tile">
+            <div class="content">
+              <div class="options">
+                <img src="assets/options-icon.svg" alt="Edit">
+              </div>
+              <div class="icons">
+                <svg width="auto" height="200" viewBox="0 0 24 24">
+                  <use xlink:href="#qrcode" />
+                </svg><br>
+                <strong>Connected Wallet</strong>
+              </div>
+             
+              <div class="centerContent">
+                0000000000000<br>
+                <span class="blueText">
+                  8 DGD
+                </span><br>
+                BALANCE
+              </div>
+              <a class="button button-outline action" href="#">BUY DGD</a>
+            </div>
+          </div>
+
+
+          <div class="tile">
+            <div class="content">
+              <div class="options">
+                <img src="assets/options-icon.svg" alt="Edit">
+              </div>
+              <div class="icons">
+                <svg width="auto" height="200" viewBox="0 0 24 24">
+                  <use xlink:href="#stats" />
+                </svg><br>
+                <strong>Connected Wallet</strong>
+              </div>
+          
+              <div class="centerContent">
+                <div class="carousel">
+                  <div class="left-arrow">
+                    <svg width="auto" height="200" viewBox="0 0 24 24">
+                      <use xlink:href="#arrow" />
+                    </svg>
+                  </div>
+                  <div class="item-corousel">
+                    <span class="blueText">
+                      406.87
+                    </span><br>
+                    VOTING STAKE
+                  </div>
+                  <div class="right-arrow">
+                    <svg width="auto" height="200" viewBox="0 0 24 24">
+                      <use xlink:href="#arrow" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a class="button button-outline action" href="#">LOCKED MORE DGD</a>
+            </div>
+          </div>
+
+
+          <div class="tile">
+            <div class="content">
+              <div class="options">
+                <img src="assets/options-icon.svg" alt="Edit">
+              </div>
+              <div class="icons">
+                <svg width="auto" height="200" viewBox="0 0 24 24">
+                  <use xlink:href="#qrcode" />
+                </svg><br>
+                <strong>Connected Wallet</strong>
+              </div>
+          
+              <div class="centerContent">
+                0000000000000<br>
+                <span class="blueText">
+                  8 DGD
+                </span><br>
+                Balance
+              </div>
+              <a class="button button-outline action" href="#">BUY DGD</a>
+            </div>
+          </div>
+          
+        </div>
+
+
+        <h6 class="no-padding">MY PROPOSALS</h6>
+        <div class="row">
+          <div class="column myProposal">
+            <div class="myProposalHeader">
+              <div class="left-content">
+                <span class="info">PROPOSAL CREATED ON <span class="goldlabel">JAN 20 2019</span></span><br>
+                <strong>Integration of DGX into Coinsource Network</strong>
+              </div>
+              <div class="right-content">
+                <img src="assets/options-icon.svg" alt="Edit">
+              </div>
+            </div>
+            <div class="contents">
+              <div class="myProposalContent">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat condimentum commodo. Phasellus vitae quam
+                  rhoncus,
+                  sodales urna sed, sodales nisi. Etiam et quam lorem. Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas.
+                </p>
+                <a class="button action" href="#">Mark Miltestone 1 Complete</a>
+                <a class="button action button-outline" href="#">Add New Milestone</a>
+              </div>
+              <div class="actions">
+                <div class="days">18 Days</div>
+                <span>Until Target Day</span>
+                <a class="button" href="#"><strong>$24 ETH</strong> Funding</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h6 class="no-padding">SAVED PROPOSALS</h6>
+        <div class="row savedProposal">
+          <table class="forDesktop">
+            <thead>
+              <tr>
+                <th></th>
+                <th>FUNDING</th>
+                <th>MILESTONES</th>
+                <th>REWARD</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tleft">Lock DGX in SMart contracts and lend out money</td>
+                <td>15 ETH <span class="plus">(+2)</span></td>
+                <td>27</td>
+                <td>2 ETH</td>
+                <td>DRAFT</td>
+              </tr>
+              <tr>
+                <td class="tleft">Minting Physical DGX branded Coins</td>
+                <td>15 ETH <span class="plus">(+2)</span></td>
+                <td>3</td>
+                <td>2 ETH</td>
+                <td>IDEA</td>
+              </tr>
+              <tr>
+                <td class="tleft">Best T-shirt Design Award</td>
+                <td>15 ETH <span class="plus">(+2)</span></td>
+                <td>27</td>
+                <td>2 ETH</td>
+                <td>ONGOING</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <div class="forMobile">
+            
+            <div class="items">
+              <div class="name"><strong>Lock DGX in SMart contracts and lend out money</strong></div>
+              <div class="data"><span class="label">FUNDING:</span>15 ETH <span class="plus">(+2)</span></div>
+              <div class="data"><span class="label">MILESTONES:</span>27</div>
+              <div class="data"><span class="label">REWARD:</span>2 ETH</span></div>
+              <div class="data"><span class="label">STATUS:</span>DRAFT</div>
+            </div>
+
+            <div class="items">
+              <div class="name"><strong>Minting Physical DGX branded Coins</strong></div>
+              <div class="data"><span class="label">FUNDING:</span>15 ETH <span class="plus">(+2)</span></div>
+              <div class="data"><span class="label">MILESTONES:</span>27</div>
+              <div class="data"><span class="label">REWARD:</span>2 ETH</span></div>
+              <div class="data"><span class="label">STATUS:</span>DRAFT</div>
+            </div>
+
+            <div class="items">
+              <div class="name"><strong>Best T-shirt Design Award</strong></div>
+              <div class="data"><span class="label">FUNDING:</span>15 ETH <span class="plus">(+2)</span></div>
+              <div class="data"><span class="label">MILESTONES:</span>27</div>
+              <div class="data"><span class="label">REWARD:</span>2 ETH</span></div>
+              <div class="data"><span class="label">STATUS:</span>DRAFT</div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <svg display="none">
+      <symbol width="24" height="24" id="plus">
+        <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z" />
+      </symbol>
+
+      <symbol xmlns="http://www.w3.org/2000/svg" width="100" height="100" id="qrcode">
+        <path
+          d="M21 21v3h3v-3h-1v-1h-1v1h-1zm2 1v1h-1v-1h1zm-23 2h8v-8h-8v8zm1-7h6v6h-6v-6zm20 3v-1h1v1h-1zm-19-2h4v4h-4v-4zm8-3v2h-1v-2h1zm2-8h1v1h-1v-1zm1-1h1v1h-1v-1zm1 2v-1h1v1h-1zm0-2h1v-6h-3v1h-3v1h3v1h2v3zm-1-4v-1h1v1h-1zm-7 4h-4v-4h4v4zm6 0h-1v-2h-2v-1h3v1h1v1h-1v1zm-4-6h-8v8h8v-8zm-1 7h-6v-6h6v6zm3 0h-1v-1h2v2h-1v-1zm-3 3v1h-1v-1h1zm15 6h2v3h-1v-1h-2v1h-1v-1h-1v-1h1v-1h1v1h1v-1zm-4 2h-1v1h-1v-1h-1v-1h1v-1h-2v-1h-1v1h-1v1h-2v1h-1v6h5v-1h-1v-2h-1v2h-2v-1h1v-1h-1v-1h3v-1h2v2h-1v1h1v2h1v-2h1v1h1v-1h1v-2h1v-1h-2v-1zm-1 3h-1v-1h1v1zm6-6v-2h1v2h-1zm-9 5v1h-1v-1h1zm5 3v-1h1v2h-2v-1h1zm-3-23v8h8v-8h-8zm7 7h-6v-6h6v6zm-1-1h-4v-4h4v4zm1 4h1v2h-1v1h-2v-4h1v2h1v-1zm-4 6v-3h1v3h-1zm-13-7v1h-2v1h1v1h-3v-1h1v-1h-2v1h-1v-2h6zm-1 4v-1h1v3h-1v-1h-1v1h-1v-1h-1v1h-2v-1h1v-1h4zm-4-1v1h-1v-1h1zm19-2h-1v-1h1v1zm-13 4h1v1h-1v-1zm15 2h-1v-1h1v1zm-5 1v-1h1v1h-1zm-1-1h1v-3h2v-1h1v-1h-1v-1h-2v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v1h-1v-1h1v-1h-4v1h2v1h-2v1h1v2h1v-1h2v2h1v-4h1v2h3v1h-2v1h2v1zm1-5h1v1h-1v-1zm-2 1h-1v-1h1v1z" />
+      </symbol>
+
+      <symbol xmlns="http://www.w3.org/2000/svg" width="100" height="100" id="stats">
+        <path
+          d="M7 24h-6v-6h6v6zm8-9h-6v9h6v-9zm8-4h-6v13h6v-13zm0-11l-6 1.221 1.716 1.708-6.85 6.733-3.001-3.002-7.841 7.797 1.41 1.418 6.427-6.39 2.991 2.993 8.28-8.137 1.667 1.66 1.201-6.001z" />
+      </symbol>
+
+      <symbol xmlns="http://www.w3.org/2000/svg" width="100" height="100" id="arrow">
+        <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+      </symbol>
+    </svg>
+  </body>
+
+</html>
